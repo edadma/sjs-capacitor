@@ -3,9 +3,10 @@ package io.guthub.edadma.sjs_capacitor
 import com.raquo.laminar.api.L.*
 
 def App =
-  val elems = Seq(p("a"), p("b"))
-
   div(
-    p(className := "font-sans", "sans font"),
-    "some more text",
+    className := "text-4xl",
+    p(className := "font-serif", "The quick brown fox jumps over the lazy dog. "),
+    p(className := "font-sans", "The quick brown fox jumps over the lazy dog. "),
+    p(className := "font-quintessential", "The quick brown fox jumps over the lazy dog. "),
+    "The quick brown fox jumps over the lazy dog.",
   )

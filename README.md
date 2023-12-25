@@ -10,3 +10,8 @@ https://laminar.dev/
 https://tailwindcss.com/docs/installation
 
 https://capacitorjs.com/docs
+
+```bash
+sudo ln -s "$(which npm)" /usr/bin/npm
+sudo ln -s "$(which node)" /usr/bin/node
+```

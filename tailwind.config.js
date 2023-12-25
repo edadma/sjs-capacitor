@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        gentium: ['Gentium Book Plus', 'serif']
+        gentium: ['Gentium Book Plus', 'serif'],
+        quintessential: ['Quintessential', 'serif']
       }
     }
   },
