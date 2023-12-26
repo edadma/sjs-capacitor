@@ -2,18 +2,21 @@ package io.guthub.edadma.sjs_capacitor
 
 import com.raquo.laminar.api.L.*
 
+import components.*
+
 def App =
-  div(
-    className := "text-3xl",
-    p(className := "font-serif", "serif"),
-    p(className := "font-sans", "sans"),
-    p(className := "font-fondamento", "fondamento normal"),
-    p(className := "font-fondamento italic", "fondamento italic"),
-    p(className := "font-gentium italic", "gentium italic"),
-    p(className := "font-gentium font-bold", "gentium bold"),
-    p(
-      className := "font-gentium font-bold italic",
-      "gentium bold italic",
-    ),
-    "gentium normal (default)",
-  )
+  Card("asdf", p("zxcv"))
+//  div(
+//    cls := "text-3xl",
+//    p(cls := "font-serif", "serif"),
+//    p(cls := "font-sans", "sans"),
+//    p(cls := "font-fondamento", "fondamento normal"),
+//    p(cls := "font-fondamento italic", "fondamento italic"),
+//    p(cls := "font-gentium italic", "gentium italic"),
+//    p(cls := "font-gentium font-bold", "gentium bold"),
+//    p(
+//      cls := "font-gentium font-bold italic",
+//      "gentium bold italic",
+//    ),
+//    "gentium normal (default)",
+//  )

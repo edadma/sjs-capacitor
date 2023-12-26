@@ -17,3 +17,4 @@ https://capacitorjs.com/docs
 sudo ln -s "$(which npm)" /usr/bin/npm
 sudo ln -s "$(which node)" /usr/bin/node
 ```
+
