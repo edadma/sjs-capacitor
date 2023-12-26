@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: ["./target/scala-3.3.1/sjs-capacitor-fastopt/**/*.{html,js}"],
   theme: {
     extend: {
