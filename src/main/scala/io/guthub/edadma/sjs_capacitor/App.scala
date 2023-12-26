@@ -1,6 +1,6 @@
 package io.guthub.edadma.sjs_capacitor
 
-import com.raquo.laminar.api.L.*
+import com.raquo.laminar.api.L.{*, given}
 
 import components.*
 
