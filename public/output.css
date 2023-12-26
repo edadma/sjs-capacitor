@@ -639,8 +639,80 @@ select {
   outline: 1px auto -webkit-focus-ring-color;
 }
 
+@font-face {
+  font-family: 'Gentium Plus';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url("/Gentium_Plus/GentiumPlus-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Gentium Plus';
+
+  font-style: italic;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url("/Gentium_Plus/GentiumPlus-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Gentium Plus';
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-display: swap;
+
+  src: url("/Gentium_Plus/GentiumPlus-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Gentium Plus';
+
+  font-style: italic;
+
+  font-weight: 700;
+
+  font-display: swap;
+
+  src: url("/Gentium_Plus/GentiumPlus-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Fondamento';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url("/Fondamento/Fondamento-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Fondamento';
+
+  font-style: italic;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url("/Fondamento/Fondamento-Italic.ttf") format("truetype");
+}
+
 html {
-  font-family: "Gentium Book Plus", serif;
+  font-family: "Gentium Plus", serif;
 }
 
 *, ::before, ::after {
@@ -785,6 +857,14 @@ html {
   display: table;
 }
 
+.font-fondamento {
+  font-family: Fondamento, serif;
+}
+
+.font-gentium {
+  font-family: Gentium Plus, serif;
+}
+
 .font-sans {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -793,23 +873,17 @@ html {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-.font-quintessential {
-  font-family: Quintessential, serif;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.font-bold {
+  font-weight: 700;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.italic {
+  font-style: italic;
 }
 
 .filter {

@@ -4,9 +4,16 @@ import com.raquo.laminar.api.L.*
 
 def App =
   div(
-    className := "text-4xl",
-    p(className := "font-serif", "The quick brown fox jumps over the lazy dog. "),
-    p(className := "font-sans", "The quick brown fox jumps over the lazy dog. "),
-    p(className := "font-quintessential", "The quick brown fox jumps over the lazy dog. "),
-    "The quick brown fox jumps over the lazy dog.",
+    className := "text-3xl",
+    p(className := "font-serif", "serif"),
+    p(className := "font-sans", "sans"),
+    p(className := "font-fondamento", "fondamento normal"),
+    p(className := "font-fondamento italic", "fondamento italic"),
+    p(className := "font-gentium italic", "gentium italic"),
+    p(className := "font-gentium font-bold", "gentium bold"),
+    p(
+      className := "font-gentium font-bold italic",
+      "gentium bold italic",
+    ),
+    "gentium normal (default)",
   )
