@@ -5,7 +5,7 @@ import com.raquo.laminar.api.L.*
 import components.*
 
 def App =
-  Card("asdf", p("zxcv"))
+  Card(p(Text("asdf")), p(Text("zxcv")))
 //  div(
 //    cls := "text-3xl",
 //    p(cls := "font-serif", "serif"),
