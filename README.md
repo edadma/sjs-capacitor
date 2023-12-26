@@ -7,6 +7,8 @@ https://www.snowpack.dev/
 
 https://laminar.dev/
 
+https://javadoc.io/doc/com.raquo/laminar_sjs1_3/16.0.0/index.html
+
 https://tailwindcss.com/docs/installation
 
 https://capacitorjs.com/docs
