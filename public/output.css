@@ -861,6 +861,14 @@ html {
   max-width: 24rem;
 }
 
+.max-w-md {
+  max-width: 28rem;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
