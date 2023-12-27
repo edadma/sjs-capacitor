@@ -7,6 +7,13 @@ module.exports = {
       fontFamily: {
         gentium: ['Gentium Plus', 'serif'],
         fondamento: ['Fondamento', 'serif']
+      },
+      typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: '100%',
+          },
+        },
       }
     }
   },
