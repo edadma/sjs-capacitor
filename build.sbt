@@ -10,6 +10,7 @@ lazy val root = project
     version := "0.0.1",
     scalaVersion := "3.3.1",
     libraryDependencies += "com.raquo" %%% "laminar" % "16.0.0",
+    libraryDependencies += "io.laminext" %%% "fetch" % "0.16.2",
     jsEnv := new NodeJSEnv(),
     scalaJSUseMainModuleInitializer := true,
     scalaJSLinkerConfig ~= { _.withModuleKind(ModuleKind.ESModule) },

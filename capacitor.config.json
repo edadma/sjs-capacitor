@@ -3,7 +3,8 @@
   "appName": "sjs-capacitor",
   "webDir": "target/build",
   "server": {
-    "androidScheme": "https"
+    "androidScheme": "http",
+    "cleartext": true
   },
   "plugins": {
     "CapacitorHttp": {
