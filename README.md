@@ -13,6 +13,10 @@ https://tailwindcss.com/docs/installation
 
 https://capacitorjs.com/docs
 
+https://flowbite.com/docs/
+
+https://codepen.io/leaverou/pen/RmwzKv
+
 ```bash
 sudo ln -s "$(which npm)" /usr/bin/npm
 sudo ln -s "$(which node)" /usr/bin/node

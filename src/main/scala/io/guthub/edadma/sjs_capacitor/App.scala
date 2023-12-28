@@ -10,9 +10,9 @@ import typings.capacitorCore.mod.CapacitorHttp.get
 import typings.capacitorCore.typesCorePluginsMod.HttpOptions
 
 def App =
-  div(
-    cls := "max-w-full p-6 bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700",
-    foreignHtmlElement(DomApi.unsafeParseHtmlString(text.juan1)),
+//  div(
+//    cls := "max-w-full p-6 bg-white border border-gray-200 shadow dark:bg-gray-800 dark:border-gray-700",
+//    foreignHtmlElement(DomApi.unsafeParseHtmlString(text.juan1)),
 //    child <-- EventStream
 //      .fromJsPromise(get(HttpOptions("text/juan/1")))
 //      .map(response => response.data.asInstanceOf[String])
@@ -24,6 +24,7 @@ def App =
 //      .get("text/juan/1"),
 //      .map(_.responseText)
 //      .map(html => foreignHtmlElement(DomApi.unsafeParseHtmlString(html))),
-  )
+//  )
 
-//  Card(content)
+  Card(
+    foreignHtmlElement(DomApi.unsafeParseHtmlString(text.juan1)))
