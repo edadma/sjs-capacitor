@@ -6,6 +6,6 @@ module.exports = {
   mount: {
     public: "/",
     "target/scala-3.3.1/sjs-capacitor-fastopt": "/",
-    "src/main/resources": "/"
+    "src/main/resources": "/",
   },
 }
