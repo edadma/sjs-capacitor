@@ -21,4 +21,3 @@ https://codepen.io/leaverou/pen/RmwzKv
 sudo ln -s "$(which npm)" /usr/bin/npm
 sudo ln -s "$(which node)" /usr/bin/node
 ```
-
