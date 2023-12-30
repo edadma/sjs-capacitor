@@ -7,8 +7,9 @@ import typings.capacitorGeolocation.mod.Geolocation
 
 import typings.capacitorCore.mod.Capacitor.^.convertFileSrc
 
-import typings.capacitorCore.typesCorePluginsMod.CapacitorHttp
-import typings.capacitorCore.typesCorePluginsMod.HttpOptions
+import typings.capacitorCore.mod.WebView.getServerBasePath
+
+import typings.capacitorCore.mod.CapacitorHttp
 
 import org.scalajs.dom
 import scala.concurrent.ExecutionContext.Implicits.global
@@ -28,6 +29,9 @@ def App =
 //    div(
 //      convertFileSrc("/index.html"),
 //    ),
+//    div(
+//      child <-- EventStream.fromJsPromise(getServerBasePath()).map(_.path),
+//    ),
 //    child.text <-- EventStream.fromJsPromise(
 //      (for {
 //        response <- dom.fetch(convertFileSrc("/index.html"))
@@ -37,6 +41,12 @@ def App =
 //      }).toJSPromise,
 //    ),
 //    child.text <-- EventStream
-//      .fromJsPromise(CapacitorHttp.get(HttpOptions("/index.html")))
+//      .fromJsPromise(
+//        CapacitorHttp.get(
+//          js.Dynamic
+//            .literal(url = convertFileSrc("./index.html"))
+//            .asInstanceOf[typings.capacitorCore.typesCorePluginsMod.HttpOptions],
+//        ),
+//      )
 //      .map(response => response.data.asInstanceOf[String]),
   )
